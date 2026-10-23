@@ -1,0 +1,230 @@
+<!DOCTYPE html> <!-- Task 1: HTML5 Document -->
+
+<html lang="en">
+
+<head>
+
+    <!-- Task 1: Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Annual Computer Science Symposium</title>
+
+    <!-- Task 1: External CSS Link -->
+    <link rel="stylesheet" href=style.css>
+
+</head>
+
+<body>
+
+    <!-- Task 1: Semantic Header -->
+    <header>
+        <h1>Annual Computer Science Symposium</h1>
+        <p>Welcome to the Annual CS Event</p>
+    </header>
+
+    <!-- Task 5: Sticky Navigation Bar -->
+    <nav id="navbar">
+
+        <!-- Task 2: Unordered List -->
+        <ul>
+            <li><a>#aboutAbout</a></li>
+            <li><a>#scheduleSchedule</a></li>
+            <li><a>#registerRegister</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Task 1: Main Tag -->
+    <main>
+
+        <!-- SECTION 1 -->
+        <section id="about">
+
+            <h2>About Event</h2>
+
+            <img src="symposium.png" alt="syposium">
+
+            <p>
+                This symposium helps students learn about Artificial Intelligence,
+                Web Development, Programming and Research.
+            </p>
+
+        </section>
+
+        <!-- SECTION 2 -->
+        <section>
+
+            <h2>Top 3 Reasons to Attend</h2>
+
+            <!-- Task 2: Ordered List -->
+            <ol>
+                <li>Learn New Technologies</li>
+                <li>Meet Experts</li>
+                <li>Improve Skills</li>
+            </ol>
+            <ul>
+                <li>Learn New Technologies</li>
+            </ul>
+
+        </section>
+
+        <!-- SECTION 3 -->
+        <section>
+
+            <h2>Featured Speaker</h2>
+
+            <!-- Task 1: Article Tag -->
+            <!-- Task 5: Relative Positioning -->
+            <article class="speaker-card">
+
+                <!-- Task 5: Absolute Positioning -->
+                <div class="badge">Keynote</div>
+
+                <h3>Dr. Ahmed Khan</h3>
+
+                <p>
+                    Expert in Artificial Intelligence and Machine Learning.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- Extra Section -->
+        <section>
+
+            <h2>Event Highlights</h2>
+
+            <!-- Task 4: Display Inline-Block Cards -->
+
+            <article class="card">
+                <h3>AI Workshop</h3>
+                <p>Learn AI Basics</p>
+            </article>
+
+            <article class="card">
+                <h3>Web Development</h3>
+                <p>Learn HTML CSS</p>
+            </article>
+
+            <article class="card">
+                <h3>Research Talk</h3>
+                <p>Latest Research Topics</p>
+            </article>
+
+        </section>
+
+        <!-- Task 2: Table -->
+        <section id="schedule">
+
+            <h2>Event Schedule</h2>
+
+            <table>
+
+                <!-- REQUIRED THEAD -->
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Event</th>
+                        <th>Speaker</th>
+                    </tr>
+                </thead>
+
+                <!-- REQUIRED TBODY -->
+                <tbody>
+
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Opening Ceremony</td>
+                        <td>Management Team</td>
+                    </tr>
+
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>AI Session</td>
+                        <td>Dr. Ahmed Khan</td>
+                    </tr>
+
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>Web Workshop</td>
+                        <td>Industry Expert</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- Task 3: Registration Form -->
+        <section id="register">
+
+            <h2>Student Registration</h2>
+
+            submit.html
+
+                <!-- Text Input -->
+                <label>Name:</label>
+                <input type="text" required>
+
+                <br><br>
+
+                <!-- Email + Pattern -->
+                <label>University Email:</label>
+                <input type="email"
+                       pattern=".+@student\.edu"
+                       placeholder="abc@student.edu"
+                       required>
+
+                <br><br>
+
+                <!-- Min and Max -->
+                <label>Semester:</label>
+                <input type="number"
+                       min="1"
+                       max="8"
+                       required>
+
+                <br><br>
+
+                <!-- Select Dropdown -->
+                <label>Year:</label>
+
+                <select required>
+
+                    <option value="">Select Year</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+
+                </select>
+
+                <br><br>
+
+                <!-- Textarea -->
+                <label>Why do you want to attend?</label>
+
+                <textarea rows="4" required></textarea>
+
+                <br><br>
+
+                <button type="submit">
+                    Register
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Task 1: Semantic Footer -->
+    <footer>
+        <p>© 2026 Annual Computer Science Symposium</p>
+    </footer>
+
+</body>
+</html>

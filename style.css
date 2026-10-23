@@ -1,0 +1,135 @@
+/* Task 4: Box Sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Task 4: Element Selector */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Task 4: ID Selector */
+/* Task 5: Sticky Navbar */
+#navbar {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Task 4: Display Property */
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: rgb(197, 72, 72);
+    text-decoration: none;
+}
+
+/* Task 4: Pseudo Class */
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Task 4: Box Model
+   Margin + Padding + Border */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(46, 167, 122);
+}
+
+/* Image */
+img {
+    width: 400px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+/* Form */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* Task 4: Class Selector */
+/* Display Inline Block */
+.card {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Task 5: Relative Position */
+.speaker-card {
+    position: relative;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+/* Task 5: Absolute Position */
+.badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
